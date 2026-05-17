@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sonakshi-Cosmetics</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#fff5f7;
+  color:#333;
+}
+
+header{
+  background:#ff4f81;
+  color:white;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:bold;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 10px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#ffe5ee;
+}
+
+.hero{
+  height:90vh;
+  background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+  url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-text h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  font-size:22px;
+  margin-bottom:20px;
+}
+
+button{
+  padding:12px 25px;
+  border:none;
+  background:#ff4f81;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+button:hover{
+  background:#e63c6f;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:60px 20px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:white;
+  padding:30px;
+  width:300px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.page-banner{
+  background:#ffb6c1;
+  padding:60px;
+  text-align:center;
+  color:white;
+}
+
+.product-container,
+.blog-container,
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  padding:50px;
+}
+
+.product,
+.blog-card,
+.gallery-box{
+  background:white;
+  width:250px;
+  padding:30px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.content{
+  padding:60px;
+  text-align:center;
+  line-height:1.8;
+  font-size:18px;
+}
+
+.contact-form{
+  width:50%;
+  margin:50px auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding:15px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.contact-form textarea{
+  height:150px;
+}
+
+footer{
+  background:#ff4f81;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+
+@media(max-width:768px){
+
+  header{
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .hero-text h1{
+    font-size:40px;
+  }
+
+  .contact-form{
+    width:90%;
+  }
+}
+
+
+
+
+
+
+.product img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+
+.product{
+  background:white;
+  width:260px;
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+  transition:0.3s;
+}
+
+.product:hover{
+  transform:translateY(-10px);
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Sonakshi-Cosmetics</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="AboutUs.html">About</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Luxury Cosmetic Collection</h1>
+    <p>Enhance your beauty with premium skincare & makeup.</p>
+    <button>Shop Now</button>
+  </div>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h2>Skincare</h2>
+    <p>Natural and glowing skincare products.</p>
+  </div>
+
+  <div class="card">
+    <h2>Makeup</h2>
+    <p>Modern makeup collection for every skin tone.</p>
+  </div>
+
+  <div class="card">
+    <h2>Perfumes</h2>
+    <p>Luxury fragrances for daily freshness.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Glow Beauty. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

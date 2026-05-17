@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#fff5f7;
+  color:#333;
+}
+
+header{
+  background:#ff4f81;
+  color:white;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:bold;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 10px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#ffe5ee;
+}
+
+.page-banner{
+  background:#ffb6c1;
+  padding:60px;
+  text-align:center;
+  color:white;
+}
+
+.product-container,
+.blog-container,
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  padding:50px;
+}
+
+.product,
+.blog-card,
+.gallery-box{
+  background:white;
+  width:250px;
+  padding:30px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.product img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+
+.product{
+  background:white;
+  width:260px;
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+  transition:0.3s;
+}
+
+.product:hover{
+  transform:translateY(-10px);
+}
+footer{
+  background:#ff4f81;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Sonakshi-Cosmetics</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="AboutUs.html">About</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+</header>
+
+<section class="page-banner">
+  <h1>Our Products</h1>
+</section>
+
+
+
+<section class="product-container">
+
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/160992043/photo/close-up-of-moisturizer-in-jar.jpg?s=612x612&w=0&k=20&c=ulOzLugjRhRTpwlXavbo0q6fZCBqiD_AzojfrGVGUUA=" alt="Face Cream">
+    <h2>Face Cream</h2>
+    <p>$25</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/1053395770/photo/flat-lay-of-creative-female-cosmetic-for-lipstick-on-the-colorful-pink-background-with-copy.jpg?s=1024x1024&w=is&k=20&c=RKayN-O1aWwGQkASDUqDijanO8i9a3djZ0OtlvHsNZ4=" alt="Lipstick">
+    <h2>Lipstick</h2>
+    <p>$15</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1627885793933-584e53987c14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm91bmRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="Foundation">
+    <h2>Foundation</h2>
+    <p>$120</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=400" alt="Perfume">
+    <h2>Perfume</h2>
+    <p>$110</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyZnVtZXxlbnwwfHwwfHx8MA%3D%3D" alt="perfume1">
+    <h2>CoCo Perfue</h2>
+    <p>$150</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1723647395168-d916159b78c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmFpbHBvbGlzaHxlbnwwfHwwfHx8MA%3D%3D" alt="one">
+    <h2>  Nailpolish  </h2>
+    <p>$10  </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/2170290844/photo/bottle-of-skin-foundation-with-pipette-dispenser-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=8a5H68FJqBp3Lo1fpTjPmwhWcDI__xkVr75atOaaIOY=" alt="highlighter">
+    <h2>   Highlighter  </h2>
+    <p>   $15    </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/183042513/photo/pink-blush-brush.jpg?s=612x612&w=0&k=20&c=jLlc9CKnrdzkjjRw3xxPNz7tniKpX6T343GbVpOfxD0=" alt="blush">
+    <h2>  Blush   </h2>
+    <p>    $12  </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1698906821280-34072d3ac1be?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sunscreen">
+    <h2>  Sunscreen   </h2>
+    <p>   $50    </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1643747394944-89b11e7fb616?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhY2UlMjBzZXJ1bXxlbnwwfHwwfHx8MA%3D%3D" alt="serum">
+    <h2>   Face Serum </h2>
+    <p> $100      </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/906517920/photo/eye-shadow-palette.jpg?s=1024x1024&w=is&k=20&c=kOh5ibIwKt37XPMG4Jwx-c9kQrNO4cMstfRYwzRA4qI=" alt="eyeshadow">
+    <h2>   Eyeshadow  </h2>
+    <p> $40      </p>
+    <button>Buy Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1631214540553-ff044a3ff1d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFzY2FyYXxlbnwwfHwwfHx8MA%3D%3D" alt="mascara">
+    <h2>Mascara     </h2>
+    <p> $10</p>
+    <button>Buy Now</button>
+  </div>
+
+<div class="product">
+    <img src="https://images.unsplash.com/photo-1739131285874-8d545cffef95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhY2V3YXNofGVufDB8fDB8fHww" alt="Facewash">
+    <h2>   Facewash </h2>
+    <p> $20</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1668255446079-b15fd061735d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZXllbGluZXJ8ZW58MHx8MHx8fDA%3D" alt="eueliner">
+    <h2>Eyeliner    </h2>
+    <p> $10</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/1302756563/photo/womens-cosmetics-loose-mineral-powder-with-a-powder-brush-on-a-background-of-pink-beads-and-a.jpg?s=612x612&w=0&k=20&c=_10upEosXsDbDIsLlbWSU2PIbufgsqxVVvpLEYc5aRM=" alt="powder">
+    <h2>Loose Powder  </h2>
+    <p>$45     </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1620464003286-a5b0d79f32c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFzY2FyYXxlbnwwfHwwfHx8MA%3D%3D" alt="brushes">
+    <h2> Brushes Pack</h2>
+    <p>$  %0   </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="data:image/jpeg;base64,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" alt="Primer">
+    <h2>Primer  </h2>
+    <p>$ 35    </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="data:image/jpeg;base64,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" alt="liner">
+    <h2> LipLiner </h2>
+    <p>$15     </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0WViwtiC4HQcB_pg1VzBkzN-VAYzN0gSydg&s" alt="concealer">
+    <h2>Concealer  </h2>
+    <p>$30     </p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCn6iCLCHK5TTo6JnQKePFow2_H7MHK5ZbEmCjppBC5x_wCyU-UhFXF-s&s" alt="moisturizer">
+    <h2> Moisturizer </h2>
+    <p>$100    </p>
+    <button>Buy Now</button>
+  </div>
+  
+  <div class="product">
+    <img src="https://media.istockphoto.com/id/1287652037/photo/set-of-decorative-cosmetics-on-colorful-background.jpg?s=612x612&w=0&k=20&c=0ZKU8dnjp88jCwYpfuDw0x53wkNlOBoPmfv4hENyo4Y=" alt="lipmatte">
+    <h2>LipGloss</h2>
+    <p>$25</p>
+    <button>Buy Now</button>
+  </div>
+</section>
+
+</section>
+
+<footer>
+  <p>© 2026 Glow Beauty. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
